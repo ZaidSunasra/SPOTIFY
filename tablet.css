@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* STYLING NAVBAR */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+#navbar .container {
+    display: none;
+}
+#navbar .logo{
+    margin-left: 30px;
+}
+#navbar .logo img{
+    height:55px;
+}
+#navbar .menu{
+    margin-right: 30px;
+}
+#navbar .menu img{
+    height: 70px;
+}
+/*STYLING MAIN */
+#main{
+    background-color: rgb(12, 11, 11);
+    height: 1000px;
+    padding-top: 35px;
+}
+#main .tablet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#main img{
+    height: 500px;
+    border-radius: 28px;
+}
+#main .slogan{
+    color: white;
+    align-self: center;
+}
+#main .slogan p{
+    margin-bottom: 5px;
+}
+#main .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgb(12, 11, 11);
+    border-radius: 10px;
+    height: fit-content;
+    width: 500px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: auto;
+}
+#main .qtn{
+    font-weight: bold;
+}
+#main .form input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#main .form p{
+    font-size: smaller;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#main .form p a{
+    color: rgb(129,183,26);
+}
+#main .form p a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.form button{
+    text-align: center;
+    color: black;
+    background-color: rgb(129,183,26);
+    border: 0px rgb(129,183,26);
+    border-radius: 25px;
+    align-self: center;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.onlyphone{
+    display: none;
+}
+/* STYLING FOOTER*/
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+#footer .img3{
+    padding: 20px;
+    width: 200px;
+    margin-left: 65px;
+}
+#footer img{
+    width: 113px;
+    height: 35px;
+}
+.container2{
+    padding: 20px;
+    width: 200px;
+}
+.container3{
+    padding: 20px;
+    width: 200px;
+    margin-right: 50px;
+}
+#footer li{
+    list-style: none;
+    margin-bottom: 5px;
+    color: white;
+}
+#footer h5{
+    color: white;
+    margin-bottom: 20px;
+}

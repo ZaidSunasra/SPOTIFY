@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* STYLING NAVBAR */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+#navbar .container {
+    display: none;
+}
+#navbar .logo{
+    margin-left: 30px;
+}
+#navbar .logo img{
+    height:55px;
+}
+#navbar .menu{
+    margin-right: 30px;
+}
+#navbar .menu img{
+    height: 70px;
+}
+/* STYLING MAIN */
+#main{
+    background-color: rgb(12, 11, 11);
+    height: fit-content;
+    padding-top: 35px;
+}
+#main .tablet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main img{
+    height: 500px;
+    border-radius: 28px;
+}
+#main .slogan{
+    color: white;
+    align-self: center;
+}
+#main .slogan p{
+    margin-bottom: 5px;
+}
+#main .form{
+    display: none;
+}
+.phonesignin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+button{
+    text-align: center;
+    color: black;
+    background-color: rgb(129,183,26);
+    border: 0px rgb(129,183,26);
+    border-radius: 25px;
+    width: 300px;
+    padding: 10px;
+}
+/*STYLING FOOTER*/
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+#footer .img3{
+    width: 200px;
+    margin-left:10px;
+}
+#footer img{
+    width: 113px;
+    height: 35px;
+}
+.container2{
+    padding: 20px;
+    width: 200px;
+}
+.container3{
+    padding: 20px;
+    width: 200px;
+    margin-right: 50px;
+}
+#footer li{
+    list-style: none;
+    margin-bottom: 5px;
+    color: white;
+}
+#footer h5{
+    color: white;
+    margin-bottom: 20px;
+}
